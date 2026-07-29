@@ -43,4 +43,8 @@ public class Vehicle {
     public void setMileage(int mileage) {
         this.mileage = mileage;
     }
+
+    public String toCSV() {
+        return year + "," + make + "," + model + "," + mileage;
+    }
 }
