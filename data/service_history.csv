@@ -1,4 +1,4 @@
-jobType,date,mileage,cost,notes
+serviceType,date,mileage,cost,notes
 Tire Rotation,6/3/2026,14970,30.99,Rotated front and back tires
 Scheduled Maintenance,5/8/2026,14800,45.20,May need to rotate tires sooner
 Oil and Filter Change,4/3/2026,14300,74.99,None
