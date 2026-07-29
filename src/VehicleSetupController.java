@@ -34,8 +34,14 @@ public class VehicleSetupController {
     }
 
     public void handleContinue() {
-        //???
+        if (!validateInput()) {
+            return;
+        }
+        createVehicle();
+
+        // return to dashboard
     }
+
 
     public boolean validateInput() {
         if (yearField.getText().isBlank()
